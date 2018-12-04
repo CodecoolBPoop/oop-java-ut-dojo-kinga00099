@@ -48,7 +48,7 @@ public class PhraseReverse {
 
     public static void main(String[] args){
         final String str = "this is one long sentence without punctuation";
-
+        System.out.println(str);
         System.out.println("Straight-up reversed: " + reverse(str));
         System.out.println("Reversed words: " + reverseWords(str));
         System.out.println("Reversed word order: " + reverseWordOrder(str));
